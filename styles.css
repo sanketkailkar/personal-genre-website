@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+/* Header section */
+header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 143, 255, 0.838);
+    color: white;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+/* Navbar section */
+nav {
+    background-color: rgb(57, 66, 66);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 2px 50px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+nav #home {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Genre section */
+section {
+    margin: 0px 40px;
+}
+
+section h2 {
+    font-size: 30px;
+    margin: 40px;
+}
+
+iframe {
+    width: 25%;
+    height: 200px;
+    margin: 0 10px 20px 10px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+}
+
+/* Personal Info section */
+section a img {
+    width: 30%px;
+    height: 400px;
+    margin: 40px 60px;
+}
+
+#pinfo {
+    height: 350px;
+}
+
+#pinfo #circle {
+    clip-path: circle(50% at 50% 50%);
+}
+
+/* FOOTER section */
+footer {
+    background-color: rgb(57, 66, 66);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 2px 50px;
+}
